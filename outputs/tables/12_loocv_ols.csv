@@ -1,0 +1,5 @@
+model,LOOCV_RMSE_log,LOOCV_MAE_log
+M1_OLS_budget_only,2.0696,1.5245
+M2_OLS_full,1.7072,1.2674
+M3_OLS_interaction,1.704,1.2651
+M4_OLS_selected,1.7008,1.2612

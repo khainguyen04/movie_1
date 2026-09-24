@@ -1,0 +1,116 @@
+{
+  "genres": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "Foreign",
+    "History",
+    "Horror",
+    "Music",
+    "Mystery",
+    "Romance",
+    "Science Fiction",
+    "TV Movie",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "franchise_modes": [
+    "Original film",
+    "Sequel – franchise in database",
+    "Sequel – enter details"
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "ru",
+      "name": "Russian"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese"
+    },
+    {
+      "code": "it",
+      "name": "Italian"
+    },
+    {
+      "code": "de",
+      "name": "German"
+    },
+    {
+      "code": "ko",
+      "name": "Korean"
+    },
+    {
+      "code": "zh",
+      "name": "Mandarin"
+    },
+    {
+      "code": "Other",
+      "name": "Other language"
+    }
+  ],
+  "companies": [
+    "Universal Pictures",
+    "Paramount Pictures",
+    "Twentieth Century Fox Film Corporation",
+    "Columbia Pictures",
+    "New Line Cinema",
+    "Warner Bros.",
+    "Walt Disney Pictures",
+    "Metro-Goldwyn-Mayer (MGM)",
+    "Columbia Pictures Corporation",
+    "United Artists",
+    "Miramax Films",
+    "TriStar Pictures",
+    "Village Roadshow Pictures",
+    "Fox Searchlight Pictures",
+    "Touchstone Pictures",
+    "DreamWorks SKG",
+    "Orion Pictures",
+    "Regency Enterprises",
+    "Summit Entertainment",
+    "Other"
+  ],
+  "genders": [
+    "male",
+    "female",
+    "unknown"
+  ]
+}

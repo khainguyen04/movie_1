@@ -1,0 +1,6 @@
+issue,mitigation,agent
+Blockbusters are only ~19% of films (about 1 : 4),Stratified train/test split and stratified K-fold keep the same share everywhere,"08, 12"
+A model can look accurate by predicting 'not blockbuster' for everyone,Logistic regression with class_weight='balanced',11
+Accuracy and specificity are misleading when negatives dominate,Precision-recall curve and Average Precision in addition to ROC/AUC,11
+Missing a blockbuster costs more than a false alarm,Threshold from the loss matrix cost_FP/(cost_FP+cost_FN) and CV cost minimisation,11
+Sequels are only ~11% of films,"Stratify on is_sequel, interaction log_budget x is_sequel, errors reported per segment","08, 10, 12"

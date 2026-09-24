@@ -1,0 +1,53 @@
+project: movie-revenue-prediction
+seed: 42
+
+paths:
+  raw: data/raw
+  inspect: data/inspect
+  interim: data/interim
+  processed: data/processed
+  figures: outputs/figures
+  tables: outputs/tables
+  logs: outputs/logs
+  artifacts: artifacts
+
+raw_files:
+  metadata: movies_metadata.csv
+  credits: credits.csv
+  keywords: keywords.csv
+  slim_fallback: data/inspect/movies_slim.csv
+
+cleaning:
+  unit_error_threshold: 1000
+  runtime_max: 300
+  drop_status_not_released: true
+  impute_budget_method: model
+
+features:
+  language_top_k: 10
+  company_top_k: 20
+  min_prior_films: 1
+  leakage_columns: [POST_popularity, POST_vote_average, POST_vote_count]
+  interactions: [[log_budget, is_sequel]]
+
+split:
+  test_size: 0.2
+  stratify_on: [is_sequel, blockbuster]
+  cv_folds: 5
+
+classification:
+  blockbuster_threshold: 100000000
+  class_weight: balanced
+  loss_false_negative: 5
+  loss_false_positive: 1
+
+export:
+  revenue_model: artifacts/models/revenue_model.joblib
+  blockbuster_model: artifacts/models/blockbuster_model.joblib
+  feature_schema: artifacts/metadata/feature_schema.json
+  model_card: artifacts/metadata/model_card.json
+  input_options: artifacts/metadata/input_options.json
+
+models:                                      
+  pvalue_threshold: 0.05
+  min_binary_count: 10

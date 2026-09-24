@@ -1,0 +1,18 @@
+# Figure list
+
+- **Figure 1.** Data flow from the raw file to the modelling dataset (`Figure_01_data_flow.png`)
+- **Figure 2.** Missing values before and after imputation (`Figure_02_missing_before_after.png`)
+- **Figure 3.** Observed vs model-imputed budget distribution (`Figure_03_budget_imputation_check.png`)
+- **Figure 4.** Revenue distribution before and after log transform (`Figure_04_revenue_raw_vs_log.png`)
+- **Figure 5.** Q-Q plots: raw vs log revenue (`Figure_05_qq_revenue_raw_vs_log.png`)
+- **Figure 6.** Budget vs revenue by franchise status (`Figure_06_scatter_budget_revenue_by_franchise.png`)
+- **Figure 7.** Revenue by segment (standalone, starter, sequel) (`Figure_07_box_revenue_by_segment.png`)
+- **Figure 8.** Revenue by genre (`Figure_08_box_revenue_by_genre.png`)
+- **Figure 9.** Pearson correlation matrix (`Figure_09_pearson_heatmap.png`)
+- **Figure 10.** Top 20 features by mutual information (`Figure_10_mutual_information_top20.png`)
+- **Figure 11.** Selected OLS coefficients with 95% CI (`Figure_11_coefficients_selected_ols.png`)
+- **Figure 12.** OLS residual diagnostics (`Figure_12_ols_diagnostics_2x2.png`)
+- **Figure 13.** 5-fold cross-validation RMSE by model (`Figure_13_cv_rmse_by_model.png`)
+- **Figure 14.** Predicted vs actual revenue on the test set (`Figure_14_predicted_vs_actual_test.png`)
+- **Figure 15.** ROC and precision-recall curves (blockbuster model) (`Figure_15_roc_pr_curves.png`)
+- **Figure 16.** Confusion matrices before/after imbalance handling (`Figure_16_confusion_matrices.png`)

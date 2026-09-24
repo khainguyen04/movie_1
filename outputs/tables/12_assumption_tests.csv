@@ -1,0 +1,7 @@
+assumption,test,statistic,p_value,conclusion,mitigation
+1. Independence,Durbin-Watson (ordered by release date),1.9504,,OK (1.5-2.5),films are separate products; time trend captured by year
+2. Normality of residuals,"Kolmogorov-Smirnov vs N(0,1)",0.0731,0.0,deviation from normal (check Q-Q),log transform; large n -> CLT makes coefficient inference robust
+2. Normality of residuals,"Jarque-Bera (skew -0.86, kurtosis 4.89)",1576.1794,0.0,heavy tails / skew,compare with GLM Gamma (M5)
+3. Linearity,Rainbow test,0.9225,0.9848,linear,"log budget, interaction term; see observed vs predicted plot"
+4. Constant variance,Breusch-Pagan,580.639,0.0,heteroscedastic,robust HC3 errors: 49 significant terms (OLS) vs 46 (HC3)
+Multicollinearity,max VIF in selected model,13.2372,,high collinearity,backward elimination removed redundant predictors

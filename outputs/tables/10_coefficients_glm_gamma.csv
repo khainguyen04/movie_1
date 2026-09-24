@@ -1,0 +1,52 @@
+term,coef,p_value,effect_pct,label
+const,4.61282,0.0,9976.75111,Intercept
+log_budget,0.58867,0.0,80.15993,Production budget
+runtime,0.15845,0.0,17.16975,Runtime
+year,-0.09601,0.00047,-9.15442,Release year
+log_cast_size,0.13125,0.0,14.02472,Cast size
+log_crew_size,0.1928,0.0,21.2638,Crew size
+n_keywords,0.15971,0.0,17.31751,Number of keywords
+n_countries,-0.0457,0.04569,-4.46682,Number of countries
+n_genres,0.35375,0.0,42.43978,Number of genres
+n_spoken_languages,0.01654,0.46091,1.66744,Number of spoken languages
+director_prior_films_log,-0.08544,0.0053,-8.18943,Director experience (prior films)
+director_prior_mean_log_rev,0.20658,0.0,22.94629,Director track record (past revenue)
+cast_prior_mean_log_rev,0.07367,0.0012,7.6452,Lead cast track record
+collection_prior_mean_log_rev,0.06783,0.07526,7.0188,Earlier franchise films' revenue
+is_sequel,-0.19162,0.42819,-17.43803,Sequel / franchise follow-up
+budget_missing,-0.79743,0.0,-54.95127,Budget not reported
+director_has_history,0.17604,0.00465,19.24824,Director has track record
+collection_has_rev_history,0.54039,0.03434,71.66841,Franchise has revenue history
+lang_en,0.03635,0.77354,3.70224,English-language film
+g_Action,-0.33215,0.0,-28.26221,Genre: Action
+g_Adventure,-0.18143,0.05363,-16.59244,Genre: Adventure
+g_Comedy,-0.22914,0.00138,-20.47837,Genre: Comedy
+g_Crime,-0.34618,3e-05,-29.26138,Genre: Crime
+g_Drama,-0.52864,0.0,-41.05919,Genre: Drama
+g_Fantasy,-0.30936,0.00271,-26.60811,Genre: Fantasy
+g_History,-0.38918,0.00232,-32.23883,Genre: History
+g_Horror,-0.12196,0.1784,-11.48119,Genre: Horror
+g_Music,-0.45856,0.0005,-36.78091,Genre: Music
+g_Mystery,-0.18481,0.06208,-16.87341,Genre: Mystery
+g_Romance,-0.1619,0.02889,-14.94756,Genre: Romance
+g_Science_Fiction,-0.56496,0.0,-43.16192,Genre: Science Fiction
+g_Thriller,-0.43796,0.0,-35.46462,Genre: Thriller
+g_War,-0.54386,8e-05,-41.94949,Genre: War
+g_Western,-0.5864,0.00199,-44.36753,Genre: Western
+release_season=Sep-Oct,-0.30763,0.0,-26.4815,Release season: Sep-Oct
+original_language=hi,0.32648,0.12941,38.60802,Original language: hi
+original_language=ru,-0.19664,0.38104,-17.85136,Original language: ru
+original_language=es,-0.06354,0.77776,-6.1562,Original language: es
+original_language=ja,1.06101,1e-05,188.92818,Original language: ja
+original_language=de,0.21729,0.46178,24.27056,Original language: de
+original_language=ko,1.07247,0.00042,192.26038,Original language: ko
+original_language=zh,1.661,0.0,426.45674,Original language: zh
+original_language=Other,0.19881,0.24436,21.99532,Original language: Other
+director_gender_cat=unknown,-0.17409,0.00253,-15.97784,Director gender: unknown
+director_gender_cat=female,-0.34362,0.00122,-29.07994,Director gender: female
+lead_gender_cat=unknown,-0.13873,0.11584,-12.95402,Lead actor gender: unknown
+lead_company=Unknown,-0.94399,0.0,-61.09291,Lead production company: Unknown
+lead_company=Warner Bros.,-0.225,0.12356,-20.1487,Lead production company: Warner Bros.
+lead_company=Metro-Goldwyn-Mayer (MGM),-0.70813,0.0001,-50.74364,Lead production company: Metro-Goldwyn-Mayer (MGM)
+lead_company=Other,-0.38237,0.0,-31.77586,Lead production company: Other
+log_budget:is_sequel,-0.02865,0.77361,-2.82401,Production budget x Sequel / franchise follow-up

@@ -1,0 +1,3 @@
+model,n_train,coef_log_budget,coef_is_sequel,train_R2_adj,test_RMSE_log_observed_budget_films
+"Selected OLS, all films (budget imputed where missing)",5820,0.8396,-0.2465,0.5549,1.4591
+"Same features, observed-budget films only",4272,0.9125,-0.5983,0.5415,1.4257

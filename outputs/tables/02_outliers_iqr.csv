@@ -1,0 +1,6 @@
+variable,iqr_outliers_raw,iqr_outliers_log,skew_raw,skew_log
+revenue,828,207,5.08,-0.85
+budget,412,156,3.41,-1.02
+runtime,254,155,1.64,0.47
+cast_size,578,195,3.65,-0.01
+crew_size,757,28,2.94,0.08

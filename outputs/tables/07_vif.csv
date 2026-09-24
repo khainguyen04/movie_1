@@ -1,0 +1,48 @@
+feature,VIF,flag
+g_Western,1000799917193443.5,high (>=10)
+g_History,1000799917193443.5,high (>=10)
+g_Animation,1000799917193443.5,high (>=10)
+g_Comedy,1000799917193443.5,high (>=10)
+g_Crime,1000799917193443.5,high (>=10)
+g_Documentary,1000799917193443.5,high (>=10)
+g_Drama,1000799917193443.5,high (>=10)
+g_Family,1000799917193443.5,high (>=10)
+g_Fantasy,1000799917193443.5,high (>=10)
+g_Foreign,1000799917193443.5,high (>=10)
+g_Horror,1000799917193443.5,high (>=10)
+g_Action,1000799917193443.5,high (>=10)
+g_Music,1000799917193443.5,high (>=10)
+n_genres,1000799917193443.5,high (>=10)
+g_Mystery,1000799917193443.5,high (>=10)
+g_Romance,1000799917193443.5,high (>=10)
+g_Science_Fiction,1000799917193443.5,high (>=10)
+g_TV_Movie,1000799917193443.5,high (>=10)
+g_Thriller,1000799917193443.5,high (>=10)
+g_War,1000799917193443.5,high (>=10)
+g_Adventure,1000799917193443.5,high (>=10)
+collection_has_rev_history,11.89,high (>=10)
+is_sequel,11.57,high (>=10)
+cast_prior_max_log_rev,4.49,ok
+cast_prior_mean_log_rev,3.98,ok
+log_budget,2.87,ok
+cast_prior_films_log,2.25,ok
+us_production,2.18,ok
+director_has_history,2.16,ok
+director_prior_films_log,2.15,ok
+lang_en,2.08,ok
+cast_has_history,2.01,ok
+collection_prior_mean_log_rev,1.88,ok
+log_crew_size,1.81,ok
+year,1.71,ok
+collection_prior_films,1.65,ok
+runtime,1.65,ok
+log_cast_size,1.59,ok
+n_companies,1.56,ok
+n_countries,1.33,ok
+n_keywords,1.23,ok
+budget_missing,1.22,ok
+cast_female_share,1.22,ok
+director_prior_mean_log_rev,1.21,ok
+n_spoken_languages,1.12,ok
+is_friday,1.08,ok
+runtime_imputed,1.03,ok

@@ -1,0 +1,4 @@
+franchise_segment,n,median_revenue,mean_revenue,median_budget,blockbuster_rate,share
+Standalone,5805,12884923.0,46130583.743,11000000.0,0.136,0.798
+Franchise starter,680,65577274.0,144747299.144,15000000.0,0.375,0.093
+Sequel,791,70992898.0,185661506.196,23000000.0,0.43,0.109

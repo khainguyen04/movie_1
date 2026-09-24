@@ -1,0 +1,5 @@
+feature,share_of_films_with_history
+director_has_history,0.5458
+cast_has_history,0.829
+collection_has_rev_history,0.0998
+is_sequel,0.1087

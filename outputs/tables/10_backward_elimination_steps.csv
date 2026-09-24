@@ -1,0 +1,35 @@
+step,removed,p_value,AIC_before,n_features_after
+1,cast_prior_films_log,0.9579,22711.7424,83
+2,lead_company=Summit Entertainment,0.8801,22709.7452,82
+3,lead_company=Walt Disney Pictures,0.8906,22707.7683,81
+4,is_friday,0.8588,22705.7875,80
+5,lead_company=New Line Cinema,0.8445,22703.8196,79
+6,lead_company=Columbia Pictures,0.8644,22701.8586,78
+7,cast_female_share,0.8259,22699.8882,77
+8,lead_company=Twentieth Century Fox Film Corporation,0.8112,22697.9372,76
+9,n_companies,0.7941,22695.9951,75
+10,release_season=Holiday (Nov-Dec),0.7559,22694.0641,74
+11,lead_company=DreamWorks SKG,0.7378,22692.162,73
+12,lead_company=TriStar Pictures,0.7208,22690.2756,72
+13,lead_gender_cat=female,0.6462,22688.405,71
+14,lead_company=Village Roadshow Pictures,0.5304,22686.6184,70
+15,lead_company=Paramount Pictures,0.4557,22685.0169,69
+16,us_production,0.4276,22683.5803,68
+17,lead_company=Orion Pictures,0.3729,22682.2172,67
+18,lead_company=Miramax Films,0.3103,22681.0205,66
+19,lead_company=Touchstone Pictures,0.2884,22680.0619,65
+20,lead_company=Fox Searchlight Pictures,0.274,22679.2022,64
+21,cast_prior_max_log_rev,0.2535,22678.4124,63
+22,release_season=Jan-Apr,0.231,22677.7307,62
+23,g_Animation,0.2174,22677.1811,61
+24,g_Documentary,0.3449,22676.7192,60
+25,g_Family,0.3536,22675.621,59
+26,lead_company=Regency Enterprises,0.1895,22674.4907,58
+27,lead_company=Columbia Pictures Corporation,0.1023,22674.2298,57
+28,runtime_imputed,0.1004,22674.9269,56
+29,g_Foreign,0.1023,22675.6532,55
+30,collection_prior_films,0.0938,22676.3491,54
+31,lead_company=United Artists,0.1083,22677.1837,53
+32,cast_has_history,0.0793,22677.7874,52
+33,original_language=fr,0.4489,22690.5277,51
+34,original_language=it,0.0502,22678.8943,50

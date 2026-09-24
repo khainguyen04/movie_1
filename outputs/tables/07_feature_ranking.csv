@@ -1,0 +1,53 @@
+feature,label,mi_log_revenue,mi_blockbuster,pearson_r,p_value,VIF,flag
+log_budget,Production budget,0.3578,0.1879,0.5887,0.0,2.8666,ok
+lead_company,Lead production company,0.3424,0.1712,,,,
+director_prior_mean_log_rev,Director track record (past revenue),0.1539,0.0776,0.3281,0.0,1.2139,ok
+log_crew_size,Crew size,0.128,0.0695,0.4069,0.0,1.8096,ok
+log_cast_size,Cast size,0.1227,0.0557,0.395,0.0,1.5865,ok
+budget_missing,Budget not reported,0.1107,0.0499,-0.4375,0.0,1.2211,ok
+cast_prior_max_log_rev,Biggest past hit of lead cast,0.1054,0.0506,0.2981,0.0,4.4949,ok
+collection_prior_mean_log_rev,Earlier franchise films' revenue,0.1045,0.0534,0.2985,0.0,1.8847,ok
+cast_prior_mean_log_rev,Lead cast track record,0.0869,0.0389,0.2391,0.0,3.9797,ok
+n_keywords,Number of keywords,0.0708,0.0362,0.2573,0.0,1.2317,ok
+director_has_history,Director has track record,0.0684,0.0277,0.332,0.0,2.1621,ok
+cast_female_share,Share of female cast,0.0646,0.0289,-0.0595,0.0,1.22,ok
+us_production,US production,0.0571,0.0262,0.3027,0.0,2.1811,ok
+n_companies,Number of production companies,0.0546,0.0181,0.1564,0.0,1.5626,ok
+year,Release year,0.0546,0.0126,0.0061,0.6001,1.7111,ok
+cast_prior_films_log,Lead cast experience,0.0529,0.0282,0.3013,0.0,2.2535,ok
+original_language,Original language,0.0524,0.0206,,,,
+g_Adventure,Genre: Adventure,0.0454,0.0249,0.2427,0.0,1000799917193443.5,high (>=10)
+collection_has_rev_history,Franchise has revenue history,0.0417,0.0218,0.2231,0.0,11.8908,high (>=10)
+cast_has_history,Lead cast has track record,0.0403,0.0148,0.2707,0.0,2.0097,ok
+runtime,Runtime,0.0381,0.0098,0.2301,0.0,1.6478,ok
+is_sequel,Sequel / franchise follow-up,0.037,0.0189,0.207,0.0,11.5736,high (>=10)
+lang_en,English-language film,0.0353,0.0149,0.1994,0.0,2.0815,ok
+lead_gender_cat,Lead actor gender,0.0347,0.0104,,,,
+collection_prior_films,Number of earlier franchise films,0.0329,0.0108,0.1548,0.0,1.6547,ok
+release_season,Release season,0.0314,0.0129,,,,
+director_gender_cat,Director gender,0.0283,0.0105,,,,
+n_genres,Number of genres,0.0264,0.0101,0.2142,0.0,1000799917193443.5,high (>=10)
+director_prior_films_log,Director experience (prior films),0.0259,0.0098,0.2171,0.0,2.1465,ok
+g_Family,Genre: Family,0.0227,0.0123,0.1756,0.0,1000799917193443.5,high (>=10)
+g_Action,Genre: Action,0.0217,0.0104,0.1845,0.0,1000799917193443.5,high (>=10)
+is_friday,Friday release,0.0202,0.0076,-0.0329,0.005,1.0809,ok
+g_Documentary,Genre: Documentary,0.0193,0.0044,-0.2005,0.0,1000799917193443.5,high (>=10)
+g_Drama,Genre: Drama,0.0193,0.0126,-0.1625,0.0,1000799917193443.5,high (>=10)
+g_Fantasy,Genre: Fantasy,0.018,0.0099,0.1426,0.0,1000799917193443.5,high (>=10)
+n_countries,Number of countries,0.0154,0.0029,0.0404,0.0006,1.3339,ok
+g_Animation,Genre: Animation,0.0138,0.0086,0.123,0.0,1000799917193443.5,high (>=10)
+g_Science_Fiction,Genre: Science Fiction,0.0078,0.0045,0.1037,0.0,1000799917193443.5,high (>=10)
+n_spoken_languages,Number of spoken languages,0.0059,0.0051,0.1102,0.0,1.1249,ok
+g_Horror,Genre: Horror,0.0047,0.0014,-0.0377,0.0013,1000799917193443.5,high (>=10)
+g_Mystery,Genre: Mystery,0.0044,0.0,0.0308,0.0086,1000799917193443.5,high (>=10)
+g_Foreign,Genre: Foreign,0.0043,0.0016,-0.0943,0.0,1000799917193443.5,high (>=10)
+g_Comedy,Genre: Comedy,0.0039,0.0,0.0418,0.0004,1000799917193443.5,high (>=10)
+g_Crime,Genre: Crime,0.0039,0.0001,0.0394,0.0008,1000799917193443.5,high (>=10)
+g_Thriller,Genre: Thriller,0.0034,0.0002,0.0603,0.0,1000799917193443.5,high (>=10)
+g_Romance,Genre: Romance,0.0029,0.0012,-0.0286,0.0147,1000799917193443.5,high (>=10)
+g_Western,Genre: Western,0.0021,0.0001,-0.0075,0.5233,1000799917193443.5,high (>=10)
+runtime_imputed,Runtime not reported,0.0016,0.0006,-0.0398,0.0007,1.0264,ok
+g_Music,Genre: Music,0.0009,0.0001,-0.0088,0.4518,1000799917193443.5,high (>=10)
+g_War,Genre: War,0.0005,0.0,0.018,0.1244,1000799917193443.5,high (>=10)
+g_TV_Movie,Genre: TV Movie,0.0,0.0,0.0061,0.6019,1000799917193443.5,high (>=10)
+g_History,Genre: History,0.0,0.0002,0.0103,0.3798,1000799917193443.5,high (>=10)

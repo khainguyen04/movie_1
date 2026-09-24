@@ -1,0 +1,20 @@
+{
+  "n_movies": 7276,
+  "median_revenue": 17725226.5,
+  "mean_revenue": 70516005.14692138,
+  "median_revenue_franchise": 68369434.0,
+  "median_revenue_standalone": 12884923.0,
+  "franchise_to_standalone_ratio": 5.306157747314439,
+  "share_franchise": 0.20217152281473336,
+  "share_blockbuster": 0.1902144035184167,
+  "best_month_by_median": 12,
+  "worst_month_by_median": 9,
+  "revenue_skew": 5.078305824428628,
+  "log_revenue_skew": -0.8508108755258814,
+  "share_budget_imputed": 0.2652556349642661,
+  "year_range": [
+    1915,
+    2017
+  ],
+  "share_english": 0.860087960417812
+}

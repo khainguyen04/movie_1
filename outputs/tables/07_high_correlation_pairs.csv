@@ -1,0 +1,3 @@
+feature_a,feature_b,pearson_r
+cast_prior_mean_log_rev,cast_prior_max_log_rev,0.843
+is_sequel,collection_has_rev_history,0.953

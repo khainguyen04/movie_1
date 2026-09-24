@@ -1,0 +1,11 @@
+column,n_unique,top_value_share
+status,1,1.0
+adult,1,1.0
+video,1,1.0
+in_credits,1,1.0
+in_keywords,1,1.0
+unit_fixed,2,0.9941
+budget_unit_error,2,0.9988
+runtime_extreme,2,0.9997
+roi_outlier,2,0.9979
+runtime_imputed,2,0.997

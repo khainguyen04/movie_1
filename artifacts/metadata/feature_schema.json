@@ -1,0 +1,86 @@
+{
+  "numeric": [
+    "log_budget",
+    "runtime",
+    "year",
+    "log_cast_size",
+    "log_crew_size",
+    "n_keywords",
+    "n_companies",
+    "n_countries",
+    "n_genres",
+    "n_spoken_languages",
+    "cast_female_share",
+    "director_prior_films_log",
+    "director_prior_mean_log_rev",
+    "cast_prior_films_log",
+    "cast_prior_mean_log_rev",
+    "cast_prior_max_log_rev",
+    "collection_prior_films",
+    "collection_prior_mean_log_rev"
+  ],
+  "binary": [
+    "is_sequel",
+    "budget_missing",
+    "runtime_imputed",
+    "director_has_history",
+    "cast_has_history",
+    "collection_has_rev_history",
+    "lang_en",
+    "us_production",
+    "is_friday",
+    "g_Action",
+    "g_Adventure",
+    "g_Animation",
+    "g_Comedy",
+    "g_Crime",
+    "g_Documentary",
+    "g_Drama",
+    "g_Family",
+    "g_Fantasy",
+    "g_Foreign",
+    "g_History",
+    "g_Horror",
+    "g_Music",
+    "g_Mystery",
+    "g_Romance",
+    "g_Science_Fiction",
+    "g_TV_Movie",
+    "g_Thriller",
+    "g_War",
+    "g_Western"
+  ],
+  "categorical": [
+    "release_season",
+    "original_language",
+    "director_gender_cat",
+    "lead_gender_cat",
+    "lead_company"
+  ],
+  "fill_log_rev": 16.69049899780766,
+  "defaults": {
+    "runtime": 104.0,
+    "n_keywords": 6.0,
+    "n_companies": 2.0,
+    "n_countries": 1.0,
+    "n_spoken_languages": 1.0,
+    "cast_size": 16.0,
+    "crew_size": 15.0,
+    "cast_female_share": 0.32,
+    "budget": 17000000.0
+  },
+  "ranges": {
+    "budget": [
+      100000.0,
+      200000000.0
+    ],
+    "runtime": [
+      75.0,
+      178.0
+    ],
+    "year": [
+      1915,
+      2017
+    ]
+  }
+}

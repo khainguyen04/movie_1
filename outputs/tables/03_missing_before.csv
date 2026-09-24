@@ -1,0 +1,13 @@
+variable,n_missing,pct_missing
+budget,1930,26.53
+director_gender_cat (unknown),1418,19.49
+keywords,627,8.62
+lead_gender_cat (unknown),581,7.99
+production_companies,375,5.15
+production_countries,128,1.76
+cast_female_share,112,1.54
+top5_cast,27,0.37
+runtime,22,0.3
+genres,18,0.25
+directors,9,0.12
+original_language,0,0.0

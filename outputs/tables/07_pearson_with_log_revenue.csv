@@ -1,0 +1,48 @@
+feature,label,pearson_r,abs_r,p_value
+log_budget,Production budget,0.5887,0.5887,0.0
+budget_missing,Budget not reported,-0.4375,0.4375,0.0
+log_crew_size,Crew size,0.4069,0.4069,0.0
+log_cast_size,Cast size,0.395,0.395,0.0
+director_has_history,Director has track record,0.332,0.332,0.0
+director_prior_mean_log_rev,Director track record (past revenue),0.3281,0.3281,0.0
+us_production,US production,0.3027,0.3027,0.0
+cast_prior_films_log,Lead cast experience,0.3013,0.3013,0.0
+collection_prior_mean_log_rev,Earlier franchise films' revenue,0.2985,0.2985,0.0
+cast_prior_max_log_rev,Biggest past hit of lead cast,0.2981,0.2981,0.0
+cast_has_history,Lead cast has track record,0.2707,0.2707,0.0
+n_keywords,Number of keywords,0.2573,0.2573,0.0
+g_Adventure,Genre: Adventure,0.2427,0.2427,0.0
+cast_prior_mean_log_rev,Lead cast track record,0.2391,0.2391,0.0
+runtime,Runtime,0.2301,0.2301,0.0
+collection_has_rev_history,Franchise has revenue history,0.2231,0.2231,0.0
+director_prior_films_log,Director experience (prior films),0.2171,0.2171,0.0
+n_genres,Number of genres,0.2142,0.2142,0.0
+is_sequel,Sequel / franchise follow-up,0.207,0.207,0.0
+g_Documentary,Genre: Documentary,-0.2005,0.2005,0.0
+lang_en,English-language film,0.1994,0.1994,0.0
+g_Action,Genre: Action,0.1845,0.1845,0.0
+g_Family,Genre: Family,0.1756,0.1756,0.0
+g_Drama,Genre: Drama,-0.1625,0.1625,0.0
+n_companies,Number of production companies,0.1564,0.1564,0.0
+collection_prior_films,Number of earlier franchise films,0.1548,0.1548,0.0
+g_Fantasy,Genre: Fantasy,0.1426,0.1426,0.0
+g_Animation,Genre: Animation,0.123,0.123,0.0
+n_spoken_languages,Number of spoken languages,0.1102,0.1102,0.0
+g_Science_Fiction,Genre: Science Fiction,0.1037,0.1037,0.0
+g_Foreign,Genre: Foreign,-0.0943,0.0943,0.0
+g_Thriller,Genre: Thriller,0.0603,0.0603,0.0
+cast_female_share,Share of female cast,-0.0595,0.0595,0.0
+g_Comedy,Genre: Comedy,0.0418,0.0418,0.0004
+n_countries,Number of countries,0.0404,0.0404,0.0006
+runtime_imputed,Runtime not reported,-0.0398,0.0398,0.0007
+g_Crime,Genre: Crime,0.0394,0.0394,0.0008
+g_Horror,Genre: Horror,-0.0377,0.0377,0.0013
+is_friday,Friday release,-0.0329,0.0329,0.005
+g_Mystery,Genre: Mystery,0.0308,0.0308,0.0086
+g_Romance,Genre: Romance,-0.0286,0.0286,0.0147
+g_War,Genre: War,0.018,0.018,0.1244
+g_History,Genre: History,0.0103,0.0103,0.3798
+g_Music,Genre: Music,-0.0088,0.0088,0.4518
+g_Western,Genre: Western,-0.0075,0.0075,0.5233
+year,Release year,0.0061,0.0061,0.6001
+g_TV_Movie,Genre: TV Movie,0.0061,0.0061,0.6019

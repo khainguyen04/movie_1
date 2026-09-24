@@ -1,0 +1,96 @@
+variable,category,count,proportion
+primary_genre,Drama,1898,0.2609
+primary_genre,Comedy,1547,0.2126
+primary_genre,Action,1181,0.1623
+primary_genre,Adventure,472,0.0649
+primary_genre,Horror,400,0.055
+primary_genre,Crime,327,0.0449
+primary_genre,Thriller,254,0.0349
+primary_genre,Animation,186,0.0256
+primary_genre,Fantasy,181,0.0249
+primary_genre,Documentary,172,0.0236
+primary_genre,Romance,170,0.0234
+primary_genre,Science Fiction,116,0.0159
+primary_genre,Mystery,90,0.0124
+primary_genre,Family,78,0.0107
+primary_genre,War,49,0.0067
+primary_genre,Music,48,0.0066
+primary_genre,Western,44,0.006
+primary_genre,History,38,0.0052
+primary_genre,Unknown,18,0.0025
+primary_genre,Foreign,6,0.0008
+primary_genre,TV Movie,1,0.0001
+original_language,en,6258,0.8601
+original_language,fr,193,0.0265
+original_language,hi,117,0.0161
+original_language,ru,106,0.0146
+original_language,es,95,0.0131
+original_language,ja,87,0.012
+original_language,it,54,0.0074
+original_language,de,47,0.0065
+original_language,ko,47,0.0065
+original_language,cn,41,0.0056
+original_language,Other,231,0.0317
+month,9.0,891,0.1225
+month,12.0,688,0.0946
+month,10.0,686,0.0943
+month,8.0,648,0.0891
+month,6.0,581,0.0799
+month,5.0,577,0.0793
+month,7.0,562,0.0772
+month,3.0,554,0.0761
+month,4.0,553,0.076
+month,11.0,534,0.0734
+month,2.0,507,0.0697
+month,1.0,495,0.068
+weekday,Friday,3194,0.439
+weekday,Thursday,1411,0.1939
+weekday,Wednesday,1225,0.1684
+weekday,Tuesday,458,0.0629
+weekday,Saturday,386,0.0531
+weekday,Monday,312,0.0429
+weekday,Sunday,290,0.0399
+decade,2010,2249,0.3091
+decade,2000,2210,0.3037
+decade,1990,1312,0.1803
+decade,1980,882,0.1212
+decade,1970,256,0.0352
+decade,1960,159,0.0219
+decade,1950,95,0.0131
+decade,1940,51,0.007
+decade,1930,40,0.0055
+decade,1920,18,0.0025
+decade,1910,4,0.0005
+segment,Standalone,5805,0.7978
+segment,Franchise,1471,0.2022
+director_gender_cat,male,5529,0.7599
+director_gender_cat,unknown,1418,0.1949
+director_gender_cat,female,329,0.0452
+lead_gender_cat,male,5014,0.6891
+lead_gender_cat,female,1681,0.231
+lead_gender_cat,unknown,581,0.0799
+budget_missing,0,5346,0.7347
+budget_missing,1,1930,0.2653
+runtime_imputed,0,7254,0.997
+runtime_imputed,1,22,0.003
+genres (multi-label),Drama,3611,0.4963
+genres (multi-label),Comedy,2570,0.3532
+genres (multi-label),Thriller,1849,0.2541
+genres (multi-label),Action,1717,0.236
+genres (multi-label),Romance,1413,0.1942
+genres (multi-label),Adventure,1108,0.1523
+genres (multi-label),Crime,1072,0.1473
+genres (multi-label),Science Fiction,741,0.1018
+genres (multi-label),Horror,730,0.1003
+genres (multi-label),Family,668,0.0918
+genres (multi-label),Fantasy,624,0.0858
+genres (multi-label),Mystery,545,0.0749
+genres (multi-label),Animation,378,0.052
+genres (multi-label),History,290,0.0399
+genres (multi-label),Music,262,0.036
+genres (multi-label),War,240,0.033
+genres (multi-label),Documentary,204,0.028
+genres (multi-label),Western,115,0.0158
+genres (multi-label),Foreign,73,0.01
+genres (multi-label),Unknown,18,0.0025
+genres (multi-label),TV Movie,1,0.0001

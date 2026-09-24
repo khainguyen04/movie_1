@@ -1,0 +1,6 @@
+variable,reference_level,n_levels_kept,has_other,levels
+release_season,Summer (May-Aug),4,False,Summer (May-Aug) | Jan-Apr | Sep-Oct | Holiday (Nov-Dec)
+original_language,en,10,True,en | fr | hi | ru | es | ja | it | de | ko | zh
+director_gender_cat,male,3,False,male | unknown | female
+lead_gender_cat,male,3,False,male | female | unknown
+lead_company,Universal Pictures,20,True,Universal Pictures | Paramount Pictures | Unknown | Twentieth Century Fox Film Corporation | Columbia Pictures | New Line Cinema | Warner Bros. | Walt Disney Pictures | Metro-Goldwyn-Mayer (MGM) | Columbia Pictures Corporation | United Artists | Miramax Films | TriStar Pictures | Village Roadshow Pictures | Fox Searchlight Pictures | Touchstone Pictures | DreamWorks SKG | Orion Pictures | Regency Enterprises | Summit Entertainment

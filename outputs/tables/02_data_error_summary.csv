@@ -1,0 +1,22 @@
+check,n_rows,action,note
+"Malformed rows (shifted columns, non-numeric id)",3,removed,company names leaked into 'genres'
+Exact duplicate rows in metadata,17,removed,
+Duplicate ids in metadata,30,removed (kept first),differ only in popularity/vote_count
+Duplicate ids in credits,44,removed (kept most complete crew),
+Duplicate ids in keywords,987,removed,fully identical rows
+Invalid genre labels after cleaning,0,checked,none
+Revenue = 0 (unknown box office),38035,excluded,target variable cannot be imputed
+Revenue reported but status not 'Released',13,removed,"{'Rumored': 6, 'Post Production': 5}"
+Missing release date,0,removed,needed for time-aware features
+Budget AND revenue < 1000 (recorded in millions),43,"fixed x 1,000,000 (kept)",
+Revenue < 1000 not fixable,109,removed,unreliable target
+Budget < 1000 with valid revenue,9,set to missing -> imputed (kept),
+Budget = 0 (unknown),1921,set to missing -> imputed (kept),
+Runtime = 0 (unknown),17,set to missing -> imputed (kept),
+Runtime > 300 min,2,flagged (kept),
+Extreme ROI (>1000x or <0.001x),15,flagged (kept),e.g. micro-budget hits; log scale reduces influence
+"Same title + same year, different id",0,checked (kept),different films sharing a title
+Director gender code 0/missing,1418,recoded 'unknown',
+Lead actor gender code 0/missing,581,recoded 'unknown',
+"Post-release columns (popularity, votes)",6,removed (leakage),"POST_popularity, POST_vote_average, POST_vote_count"
+belongs_to_collection is retrospective,1471,kept for EDA only,model uses is_sequel from agent 06

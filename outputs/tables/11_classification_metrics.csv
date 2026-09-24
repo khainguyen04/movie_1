@@ -1,0 +1,7 @@
+model,threshold_rule,cv_expected_cost,test_expected_cost,threshold,AUC,AP,TP,FP,TN,FN,sensitivity_recall,specificity,precision,F1,accuracy
+Logistic (unweighted),default 0.5,0.4095,0.4114,0.5,0.9097,0.7624,169,59,1120,108,0.6101,0.95,0.7412,0.6693,0.8853
+Logistic (unweighted),loss-matrix formula,0.2864,0.2775,0.1667,0.9097,0.7624,238,209,970,39,0.8592,0.8227,0.5324,0.6575,0.8297
+Logistic (unweighted),CV cost-optimal,0.2796,0.2891,0.2,0.9097,0.7624,229,181,998,48,0.8267,0.8465,0.5585,0.6667,0.8427
+Logistic (class_weight=balanced),default 0.5,0.2816,0.2816,0.5,0.9103,0.7623,233,190,989,44,0.8412,0.8388,0.5508,0.6657,0.8393
+Logistic (class_weight=balanced),loss-matrix formula,0.354,0.364,0.1667,0.9103,0.7623,258,435,744,19,0.9314,0.631,0.3723,0.532,0.6882
+Logistic (class_weight=balanced),CV cost-optimal,0.2796,0.2775,0.51,0.9103,0.7623,233,184,995,44,0.8412,0.8439,0.5588,0.6715,0.8434

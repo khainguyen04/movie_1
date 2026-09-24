@@ -1,0 +1,12 @@
+variable,n_categories,mode,mode_count,mode_proportion
+primary_genre,21,Drama,1898,0.2609
+original_language,44,en,6258,0.8601
+month,12,9.0,891,0.1225
+weekday,7,Friday,3194,0.439
+decade,11,2010,2249,0.3091
+segment,2,Standalone,5805,0.7978
+director_gender_cat,3,male,5529,0.7599
+lead_gender_cat,3,male,5014,0.6891
+budget_missing,2,0,5346,0.7347
+runtime_imputed,2,0,7254,0.997
+genres (multi-label),21,Drama,3611,0.4963

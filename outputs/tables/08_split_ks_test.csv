@@ -1,0 +1,2 @@
+test,statistic,p_value,conclusion
+"KS two-sample, log_revenue train vs test",0.0276,0.3319,same distribution (p >= 0.05)

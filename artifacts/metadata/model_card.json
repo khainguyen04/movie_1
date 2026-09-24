@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-09-24T21:06:19",
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6"
+  },
+  "intended_use": "Pre-release box-office planning for film distribution; decision support only.",
+  "data": {
+    "source": "The Movies Dataset (Kaggle, Banik 2017)",
+    "n_films": 7276,
+    "n_train": 5820,
+    "n_test": 1456,
+    "year_range": [
+      1915,
+      2017
+    ],
+    "median_revenue": 17725226.5,
+    "share_sequel": 0.10871357888949973,
+    "share_blockbuster": 0.1902144035184167
+  },
+  "regression": {
+    "model": "M4_OLS_selected",
+    "kind": "ols",
+    "n_features": 50,
+    "test_metrics": {
+      "RMSE_log": 1.6012352197819806,
+      "MAE_log": 1.2043591221149352,
+      "R2_log": 0.589561211877388,
+      "RMSE_usd": 383777986.1138949,
+      "MAE_usd": 120025754.48573157,
+      "MedianAE_usd": 21150575.920783274,
+      "MedianAPE_pct": 153.90599095950267,
+      "within_2x_pct": 32.55494505494506
+    },
+    "interval_log_quantiles": {
+      "q10": -1.81575504617141,
+      "q25": -0.7708285656184488,
+      "q75": 1.1417934622189274,
+      "q90": 1.8309225736986772
+    },
+    "smearing": 3.1651413979439034,
+    "budget_elasticity": {
+      "standalone_or_starter": 0.5644691903956984,
+      "sequel": 0.39152917073105054
+    }
+  },
+  "classification": {
+    "model": "Logistic (unweighted)",
+    "class_weight": null,
+    "threshold": 0.2,
+    "threshold_rule": "CV cost-optimal",
+    "loss_matrix": {
+      "FN": 5,
+      "FP": 1
+    },
+    "test_metrics": {
+      "threshold": 0.2,
+      "AUC": 0.9097319823750779,
+      "AP": 0.7623911029892375,
+      "TP": 229,
+      "FP": 181,
+      "TN": 998,
+      "FN": 48,
+      "sensitivity_recall": 0.8267148014440433,
+      "specificity": 0.8464800678541137,
+      "precision": 0.5585365853658537,
+      "F1": 0.6666666666666667,
+      "accuracy": 0.8427197802197802
+    },
+    "blockbuster_threshold_usd": 100000000,
+    "train_neg_pos_ratio": 4.257452574525745
+  },
+  "top_effects": [
+    {
+      "label": "Original language: zh",
+      "effect_pct": 465.86989,
+      "unit": "vs reference category",
+      "p_value": 0.0
+    },
+    {
+      "label": "Original language: ko",
+      "effect_pct": 463.29558,
+      "unit": "vs reference category",
+      "p_value": 0.0
+    },
+    {
+      "label": "Original language: ja",
+      "effect_pct": 336.96456,
+      "unit": "vs reference category",
+      "p_value": 0.0
+    },
+    {
+      "label": "Original language: hi",
+      "effect_pct": 296.61688,
+      "unit": "vs reference category",
+      "p_value": 0.0
+    },
+    {
+      "label": "Original language: ru",
+      "effect_pct": 206.56031,
+      "unit": "vs reference category",
+      "p_value": 0.0
+    },
+    {
+      "label": "Production budget",
+      "effect_pct": 131.54796,
+      "unit": "per +1 SD",
+      "p_value": 0.0
+    },
+    {
+      "label": "Original language: es",
+      "effect_pct": 115.13485,
+      "unit": "vs reference category",
+      "p_value": 0.00119
+    },
+    {
+      "label": "Original language: Other",
+      "effect_pct": 104.97783,
+      "unit": "vs reference category",
+      "p_value": 6e-05
+    },
+    {
+      "label": "Original language: de",
+      "effect_pct": 100.26801,
+      "unit": "vs reference category",
+      "p_value": 0.02503
+    },
+    {
+      "label": "Franchise has revenue history",
+      "effect_pct": 88.97945,
+      "unit": "0 -> 1",
+      "p_value": 0.01758
+    }
+  ],
+  "limitations": [
+    "Revenue is nominal (not inflation-adjusted); release year partly controls for this.",
+    "Trained on films up to 2017; streaming-era behaviour is not represented.",
+    "86% of training films are English-language; other markets are less reliable.",
+    "About a quarter of budgets were imputed; a sensitivity check on observed budgets is reported.",
+    "Marketing spend, competition on the release weekend and reviews are not in the data.",
+    "Forecasts are associations learned from history, not causal effects."
+  ]
+}

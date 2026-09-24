@@ -1,0 +1,14 @@
+variable,n_imputed,method
+genres,18,meaningful value 'Unknown'
+production_companies,375,meaningful value 'Unknown'
+production_countries,128,meaningful value 'Unknown'
+spoken_languages,49,meaningful value 'Unknown'
+directors,9,meaningful value 'Unknown'
+top5_cast,27,meaningful value 'Unknown'
+writers,281,meaningful value 'Unknown'
+keywords,627,empty = none
+composer,3054,meaningful value 'Unknown'
+collection_name,5805,empty = none
+runtime,22,median runtime of the same primary genre
+cast_female_share,112,median + flag cast_gender_unknown
+budget,1930,model-based on log(budget) + flag budget_missing

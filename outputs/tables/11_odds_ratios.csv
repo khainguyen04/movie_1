@@ -1,0 +1,86 @@
+term,coef,odds_ratio,or_ci_low,or_ci_high,p_value,label,interpretation
+const,-34.06914,0.0,,,,Intercept,odds x0.0 (lower)
+log_budget,1.65392,5.22741,4.17986,6.53751,0.0,Production budget,odds x5.23
+runtime,0.2374,1.26795,1.11688,1.43944,0.00024,Runtime,odds x1.27
+year,-0.14426,0.86566,0.73554,1.0188,0.08259,Release year,odds x0.87 (lower)
+log_cast_size,0.25422,1.28946,1.14442,1.45288,3e-05,Cast size,odds x1.29
+log_crew_size,0.44257,1.55671,1.37593,1.76124,0.0,Crew size,odds x1.56
+n_keywords,0.25967,1.2965,1.1866,1.41657,0.0,Number of keywords,odds x1.3
+n_companies,0.04312,1.04406,0.92036,1.18438,0.50278,Number of production companies,odds x1.04
+n_countries,-0.0947,0.90965,0.8141,1.01641,0.09443,Number of countries,odds x0.91 (lower)
+n_genres,-13.79902,0.0,0.0,inf,0.99825,Number of genres,odds x0.0 (lower)
+n_spoken_languages,-0.00934,0.9907,0.90192,1.08821,0.84535,Number of spoken languages,odds x0.99 (lower)
+cast_female_share,0.02447,1.02477,0.90457,1.16095,0.70067,Share of female cast,odds x1.02
+director_prior_films_log,-0.11682,0.88974,0.77185,1.02564,0.1072,Director experience (prior films),odds x0.89 (lower)
+director_prior_mean_log_rev,0.31919,1.37601,1.22009,1.55185,0.0,Director track record (past revenue),odds x1.38
+cast_prior_films_log,0.01606,1.01619,0.8752,1.1799,0.83306,Lead cast experience,odds x1.02
+cast_prior_mean_log_rev,0.04377,1.04474,0.86689,1.25907,0.64573,Lead cast track record,odds x1.04
+cast_prior_max_log_rev,0.13766,1.14758,0.93556,1.40765,0.18655,Biggest past hit of lead cast,odds x1.15
+collection_prior_films,0.18345,1.20135,1.02837,1.40343,0.02075,Number of earlier franchise films,odds x1.2
+collection_prior_mean_log_rev,0.51567,1.67476,1.27806,2.19458,0.00018,Earlier franchise films' revenue,odds x1.67
+is_sequel,-0.26629,0.76621,0.12733,4.61079,0.77119,Sequel / franchise follow-up,odds x0.77 (lower)
+budget_missing,-1.54761,0.21276,0.13408,0.33759,0.0,Budget not reported,odds x0.21 (lower)
+runtime_imputed,-17.85931,0.0,0.0,inf,0.9995,Runtime not reported,odds x0.0 (lower)
+director_has_history,0.03246,1.033,0.76747,1.39038,0.83043,Director has track record,odds x1.03
+cast_has_history,-0.67718,0.50805,0.31929,0.80838,0.00427,Lead cast has track record,odds x0.51 (lower)
+collection_has_rev_history,-0.54251,0.58129,0.08696,3.88571,0.57569,Franchise has revenue history,odds x0.58 (lower)
+lang_en,2.02881,7.605,,,,English-language film,odds x7.61
+us_production,0.41052,1.5076,0.95744,2.37389,0.07636,US production,odds x1.51
+is_friday,-0.42247,0.65543,0.53763,0.79904,3e-05,Friday release,odds x0.66 (lower)
+g_Action,12.08268,176783.65884,0.0,inf,0.99828,Genre: Action,odds x176783.66
+g_Adventure,12.39082,240582.52871,0.0,inf,0.99823,Genre: Adventure,odds x240582.53
+g_Animation,12.74967,344439.3981,0.0,inf,0.99818,Genre: Animation,odds x344439.4
+g_Comedy,12.3222,224628.14234,0.0,inf,0.99824,Genre: Comedy,odds x224628.14
+g_Crime,12.10101,180053.3416,0.0,inf,0.99828,Genre: Crime,odds x180053.34
+g_Documentary,11.97793,159202.8698,0.0,inf,0.99829,Genre: Documentary,odds x159202.87
+g_Drama,11.86565,142293.36208,0.0,inf,0.99831,Genre: Drama,odds x142293.36
+g_Family,12.42832,249776.56896,0.0,inf,0.99823,Genre: Family,odds x249776.57
+g_Fantasy,12.34434,229657.38778,0.0,inf,0.99824,Genre: Fantasy,odds x229657.39
+g_Foreign,13.65542,852065.29946,0.0,inf,0.99805,Genre: Foreign,odds x852065.3
+g_History,11.58855,107855.33203,0.0,inf,0.99835,Genre: History,odds x107855.33
+g_Horror,12.3133,222637.37687,0.0,inf,0.99825,Genre: Horror,odds x222637.38
+g_Music,12.20081,198951.17215,0.0,inf,0.99826,Genre: Music,odds x198951.17
+g_Mystery,12.36857,235289.97585,0.0,inf,0.99824,Genre: Mystery,odds x235289.98
+g_Romance,12.54463,280583.64361,0.0,inf,0.99821,Genre: Romance,odds x280583.64
+g_Science_Fiction,11.67982,118163.15355,0.0,inf,0.99834,Genre: Science Fiction,odds x118163.15
+g_Thriller,12.14008,187228.47761,0.0,inf,0.99827,Genre: Thriller,odds x187228.48
+g_War,12.19379,197558.23503,0.0,inf,0.99826,Genre: War,odds x197558.24
+g_Western,11.68235,118462.44993,0.0,inf,0.99834,Genre: Western,odds x118462.45
+release_season=Jan-Apr,-0.42774,0.65198,0.50835,0.8362,0.00075,Release season: Jan-Apr,odds x0.65 (lower)
+release_season=Sep-Oct,-0.41706,0.65898,0.49843,0.87124,0.00342,Release season: Sep-Oct,odds x0.66 (lower)
+release_season=Holiday (Nov-Dec),-0.00071,0.99929,0.76659,1.30264,0.99583,Release season: Holiday (Nov-Dec),odds x1.0 (lower)
+original_language=fr,1.74336,5.71653,,,,Original language: fr,odds x5.72
+original_language=hi,2.58678,13.28691,,,,Original language: hi,odds x13.29
+original_language=ru,-18.44974,0.0,,,,Original language: ru,odds x0.0 (lower)
+original_language=es,-18.69153,0.0,,,,Original language: es,odds x0.0 (lower)
+original_language=ja,2.15955,8.66728,,,,Original language: ja,odds x8.67
+original_language=it,2.36571,10.65161,,,,Original language: it,odds x10.65
+original_language=de,-18.37968,0.0,,,,Original language: de,odds x0.0 (lower)
+original_language=ko,3.0735,21.6174,,,,Original language: ko,odds x21.62
+original_language=zh,5.26482,193.41231,,,,Original language: zh,odds x193.41
+original_language=Other,2.22925,9.29291,,,,Original language: Other,odds x9.29
+director_gender_cat=unknown,-0.17864,0.83641,0.61368,1.13997,0.25817,Director gender: unknown,odds x0.84 (lower)
+director_gender_cat=female,-0.5851,0.55705,0.31764,0.97691,0.0412,Director gender: female,odds x0.56 (lower)
+lead_gender_cat=female,0.16361,1.17775,0.91647,1.51352,0.20111,Lead actor gender: female,odds x1.18
+lead_gender_cat=unknown,0.20219,1.22408,0.64277,2.33113,0.53842,Lead actor gender: unknown,odds x1.22
+lead_company=Paramount Pictures,0.17661,1.19317,0.75101,1.89565,0.45463,Lead production company: Paramount Pictures,odds x1.19
+lead_company=Unknown,-1.22894,0.2926,0.05479,1.5625,0.15048,Lead production company: Unknown,odds x0.29 (lower)
+lead_company=Twentieth Century Fox Film Corporation,0.05632,1.05794,0.64294,1.74081,0.82458,Lead production company: Twentieth Century Fox Film Corporation,odds x1.06
+lead_company=Columbia Pictures,0.1465,1.15778,0.69633,1.92503,0.57225,Lead production company: Columbia Pictures,odds x1.16
+lead_company=New Line Cinema,-0.22726,0.79671,0.45194,1.40451,0.43207,Lead production company: New Line Cinema,odds x0.8 (lower)
+lead_company=Warner Bros.,-0.4271,0.6524,0.31929,1.33304,0.2414,Lead production company: Warner Bros.,odds x0.65 (lower)
+lead_company=Walt Disney Pictures,0.39229,1.48037,0.74402,2.94547,0.26374,Lead production company: Walt Disney Pictures,odds x1.48
+lead_company=Metro-Goldwyn-Mayer (MGM),-1.65376,0.19133,0.04384,0.83494,0.02781,Lead production company: Metro-Goldwyn-Mayer (MGM),odds x0.19 (lower)
+lead_company=Columbia Pictures Corporation,0.20676,1.22969,0.597,2.53288,0.57492,Lead production company: Columbia Pictures Corporation,odds x1.23
+lead_company=United Artists,-0.36387,0.69498,0.28635,1.68675,0.42121,Lead production company: United Artists,odds x0.69 (lower)
+lead_company=Miramax Films,0.01711,1.01726,0.47449,2.1809,0.96492,Lead production company: Miramax Films,odds x1.02
+lead_company=TriStar Pictures,-0.31589,0.72914,0.31831,1.67021,0.45507,Lead production company: TriStar Pictures,odds x0.73 (lower)
+lead_company=Village Roadshow Pictures,-0.4218,0.65586,0.3191,1.34805,0.25118,Lead production company: Village Roadshow Pictures,odds x0.66 (lower)
+lead_company=Fox Searchlight Pictures,-0.12922,0.87878,0.32831,2.35221,0.797,Lead production company: Fox Searchlight Pictures,odds x0.88 (lower)
+lead_company=Touchstone Pictures,0.12293,1.13081,0.4494,2.84539,0.79401,Lead production company: Touchstone Pictures,odds x1.13
+lead_company=DreamWorks SKG,0.16811,1.18307,0.56271,2.48733,0.65747,Lead production company: DreamWorks SKG,odds x1.18
+lead_company=Orion Pictures,-1.27639,0.27904,0.03582,2.17382,0.22299,Lead production company: Orion Pictures,odds x0.28 (lower)
+lead_company=Regency Enterprises,-0.33762,0.71347,0.29063,1.75151,0.46124,Lead production company: Regency Enterprises,odds x0.71 (lower)
+lead_company=Summit Entertainment,-0.22938,0.79502,0.31063,2.03478,0.63237,Lead production company: Summit Entertainment,odds x0.8 (lower)
+lead_company=Other,-0.43841,0.64506,0.45434,0.91584,0.01422,Lead production company: Other,odds x0.65 (lower)
+log_budget:is_sequel,0.34104,1.4064,0.77585,2.54944,0.26114,Production budget x Sequel / franchise follow-up,odds x1.41

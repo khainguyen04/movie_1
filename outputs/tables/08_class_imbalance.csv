@@ -1,0 +1,4 @@
+variable,positives,negatives,positive_share,imbalance_ratio_neg_to_pos
+Blockbuster (revenue >= threshold),1384,5892,0.1902,4.2572
+Sequel,791,6485,0.1087,8.1985
+Belongs to a franchise,1471,5805,0.2022,3.9463

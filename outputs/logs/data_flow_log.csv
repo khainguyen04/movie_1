@@ -1,0 +1,7 @@
+step,action,rows_before,rows_after,removed,reason
+01 load & dedupe metadata,drop,45466,45433,33,3 malformed (shifted-column) rows + duplicate ids removed
+02a keep movies with known revenue,filter,45433,7398,38035,revenue = 0 means unknown
+02b status conflict,drop,7398,7385,13,Rumored/Post Production with revenue
+02c missing release date,drop,7385,7385,0,no date
+02d fix unit errors (x1e6),fix,7385,7385,0,budget & revenue both recorded in millions
+02e unreliable revenue < 1000,drop,7385,7276,109,cannot verify unit
